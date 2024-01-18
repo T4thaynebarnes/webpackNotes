@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webpack notes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="body">
+    <div class="div">
+      <h1>importing and exporting</h1>
+      <div>
+        <p>
+          in this file are dist and src directories. they contain multiple .js
+          files, please refer to them as they have the import and export code in
+          them.
+        </p>
+      </div>
+      <h2>using webpack: CLI commands</h2>
+      <ol>
+        <li>npm init</li>
+        <li>npm i webpack-cli --save-dev</li>
+        <li>npx webpack</li>
+        <li>running that should create the main.js file</li>
+      </ol>
+      <div>
+        <h1>Remember:</h1>
+        <ul>
+          <li>
+            ** That if you install jquery or bootstrap CLI is npm i jquery
+            --save-dev or npm i bootstrap --save-dev
+          </li>
+          <li>
+            also anytime you make a change to the javascript you need to run a
+            command from command prompt "npx webpack"
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="div" id="person"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
